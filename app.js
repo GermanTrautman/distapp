@@ -7,7 +7,7 @@ var cors = require('cors');
 var app = express();
 
 //conectar BD
-var urlBD = 'mongodb://localhost/appdist';
+var urlBD = 'mongodb://admin:distapp1@ds237855.mlab.com:37855/distapp';
 //opciones conexion
 var opts = {useNewUrlParser : true, connectTimeoutMS:20000};
 //importo driver
